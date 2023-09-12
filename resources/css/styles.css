@@ -15,6 +15,8 @@ body {
     align-items: center;
 }
 
+
+
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
@@ -41,6 +43,10 @@ h1, h2, h3, h4, p {
     
 }
 
+#profile:hover {
+    border: 5px solid whitesmoke;
+}
+
 /* Sections Style-------------------------------------------------- */
 
 .gift-section {
@@ -62,30 +68,30 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
 
     height: 400px;
-    background-image: url(/Practice5/resources/images/gift.jpg);
+    background-image: url(https://github.com/Pablo-pelaez/birthday-gift-site/blob/main/resources/images/gift.jpg?raw=true);
     background-size: cover;
     margin: 0 auto;
 }
 
 
 #gift1:hover {
-    background-image: url(/Practice5/resources/images/birthday.gif);
+    background-image: url(https://github.com/Pablo-pelaez/birthday-gift-site/blob/main/resources/images/birthday.gif?raw=true);
     background-size: 400px 400px;
 }
 
 
 #gift2:hover {
-    background-image: url(/Practice5/resources/images/birthday2.gif);
+    background-image: url(https://github.com/Pablo-pelaez/birthday-gift-site/blob/main/resources/images/birthday2.gif?raw=true);
     background-size: 400px 400px;
 }
 
 #genius:hover {
-    background-image: url(/Practice5/resources/images/genius.gif);
+    background-image: url(https://github.com/Pablo-pelaez/birthday-gift-site/blob/main/resources/images/genius.gif?raw=true);
     background-size: 400px 400px;
 }
 
 #badass:hover {
-    background-image: url(/Practice5/resources/images/badass.gif);
+    background-image: url(https://github.com/Pablo-pelaez/birthday-gift-site/blob/main/resources/images/badass.gif?raw=true);
     background-size: 400px 400px;
 }
 
@@ -94,7 +100,7 @@ h1, h2, h3, h4, p {
 }
 
 #cheers:hover {
-    background-image: url(/Practice5/resources/images/cheers.gif);
+    background-image: url(https://github.com/Pablo-pelaez/birthday-gift-site/blob/main/resources/images/cheers.gif?raw=true);
     background-size: 400px 200px;
 }
 
