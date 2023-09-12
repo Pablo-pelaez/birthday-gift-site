@@ -1,0 +1,161 @@
+/*--------------------------------- STYLE -------------------- */
+
+/* Header Style-------------------------------------------------- */
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, pink);
+    color: #ffffff;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bday-date, #bday-age {
+    background: #EFB0C9;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin: 20px 0 10px 0;
+}
+
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#profile {
+    width: 200px;
+    border: 5px solid #EFB0C9;
+    border-radius: 50%;
+    
+}
+
+/* Sections Style-------------------------------------------------- */
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 18px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+
+    height: 400px;
+    background-image: url(/Practice5/resources/images/gift.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+#gift1:hover {
+    background-image: url(/Practice5/resources/images/birthday.gif);
+    background-size: 400px 400px;
+}
+
+
+#gift2:hover {
+    background-image: url(/Practice5/resources/images/birthday2.gif);
+    background-size: 400px 400px;
+}
+
+#genius:hover {
+    background-image: url(/Practice5/resources/images/genius.gif);
+    background-size: 400px 400px;
+}
+
+#badass:hover {
+    background-image: url(/Practice5/resources/images/badass.gif);
+    background-size: 400px 400px;
+}
+
+#cheers {
+    height: 200px;
+}
+
+#cheers:hover {
+    background-image: url(/Practice5/resources/images/cheers.gif);
+    background-size: 400px 200px;
+}
+
+/* FOOTER -----------------------------------------------------------*/
+
+.footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* --------------------------------------TESTS------------------------------- */
+
+/* .container {
+    border: 8px solid #016a26;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
+} */
+
+ /*
+    Challenge:
+    Follow my orders on where we should
+    leave up our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+
+    /* div {
+        text-align: center;
+        color: white;
+        margin: 5px;
+        padding: 25px 0;
+        background: #e5383b;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    div:hover {
+        background: #971517;
+        text-shadow: 5px 5px 3px black;
+        font-size: 40px;
+    } */
